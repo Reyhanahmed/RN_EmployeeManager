@@ -1,1 +1,2 @@
-# A simple Employee Manager build using React Native, Redux and React-Native-Router-Flux. 
+# A simple Employee Manager build using React Native, Redux and Firebase.
+## In this app you can create your account and then manage your employees by listing and firing them and setting their schedule.
