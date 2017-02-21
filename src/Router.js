@@ -9,7 +9,6 @@ class RouterComponent extends Component {
 		return(
 			<Router sceneStyle={{ paddingTop: 60 }}>
 				<Scene key="auth">
-					<Scene key="employeeCreate" component={EmployeeCreate} title="Create Employee"/>
 					<Scene key="login" component={LoginForm} title="Please Login" />
 				</Scene>
 
@@ -22,6 +21,7 @@ class RouterComponent extends Component {
 						title="Employees"
 						initial
 					/>
+					<Scene key="employeeCreate" component={EmployeeCreate} title="Create Employee"/>
 				</Scene>
 			</Router>
 		);
