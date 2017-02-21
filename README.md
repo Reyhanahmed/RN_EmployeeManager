@@ -1,0 +1,1 @@
+# A simple Employee Manager build using React Native, Redux and React-Native-Router-Flux. 
